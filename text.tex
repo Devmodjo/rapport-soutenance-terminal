@@ -1,0 +1,270 @@
+\documentclass[english,12pt,a4paper]{report}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage[top=1.5cm,bottom=2cm,left=2cm,right=2cm]{geometry}
+\usepackage{array}
+\usepackage{multirow}
+\usepackage{multicol}
+\usepackage{enumerate}
+\usepackage{layout}
+\usepackage{dirtytalk}
+\usepackage{setspace}
+\usepackage{sectsty}
+\usepackage{float}
+\usepackage{gensymb}
+\usepackage{tikz}
+\usepackage{enumitem}
+\usepackage{listings}
+\usepackage{comment}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{fancyhdr}
+\usepackage{blindtext}
+\usepackage{parskip}
+\usepackage{babel}
+\usepackage{hyperref}
+\setlength{\parindent}{4em}
+\setlength{\parskip}{1em}
+\chapterfont{\centering}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyheadoffset{0cm}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+\fancyhead[R]{\thepage}
+\fancypagestyle{plain}{\fancyhf{}\fancyhead[R]{\thepage}}
+\begin{document}
+\begin{spacing}{1.5}
+\begin{titlepage}
+\begin{center}
+\begin{center}
+\begin{tabular}{c c c}
+	REPUBLIQUE DU CAMEROUN &             & REPUBLIC OF CAMEROON\\
+	Paix-Travail-Patrie &             & Peace-Work-Fatherland\\
+	\vspace{1cm} 
+	MINSEC &             & MINSEC\\
+	DELEGATION DEPARTEMENTALE  &             & MENOUA DIVISIONAL \\
+	DE LA MENOUA &             & DELEGATION \\
+	LYCEE CLASSIQUE DE DSCHANG &   \hspace{3cm}          & DEPARTEMENT D'INFORMATIQUE
+\end{tabular}
+\end{center}
+\vspace{1.5cm}
+{\huge\scshape\textbf{RAPPORT DE STAGE}}\\
+\vspace{1.5cm}
+{{\Large\scshape\textbf{THEME: UNE APPLICATION DE BUREAU POUR LA GESTION DES EMPLOIEDE TEMPS SCOLAIRE}}\\{\Large Redigé et presenté \emph{par: \textbf{KAMSU MODJO YVAN.V}}\\
+\textbf{DEPARTEMENT INFO \emph{LYCLA(34567864)}\\}}}
+\vspace{1.2cm}
+{\large{Ce projet soumis au collège de formation des enseignants d'informatiques du lycée classique de Dschang dans le cadre de l'obtention partielle du BACCALAUREAT ESG de la série TI(technologie de l'information)}\\}
+\vspace{1cm}
+{\large Supervisé \emph{par:}
+\textbf{Mr. ELLA EMMANUEL}\\
+\large co-encadré \emph{par:}
+\textbf{Mr. GOUFACK}}
+\vfill
+{\itshape Mai, 2025}
+\end{center}
+\end{titlepage}
+\cleardoublepage
+\pagenumbering{roman}
+\addcontentsline{toc}{chapter}{CERTIFICATION}
+\chapter*{CERTIFICATION}
+\hspace{1.2cm}
+Nous attestons que ce projet intitulé << UNE APPLICATION DESKTOP POUR LA GESTION DES EMPLOIE DE TEMPS SCOLAIRE>> a été réalisé par Département Info LYCLA avec le numéro unique 34567864 de la série Technologie de l'information du département d'informatique du lycée classique de Dschang.
+\begin{center}
+	\vspace{0.2cm}
+	\emph{Encadreur}\\
+	\vspace{0.2cm}
+	\textbf{Mr. ELLA EMMANUEL}\\
+	\vspace{0.2cm}
+	Date:
+	\begin{tikzpicture}
+		\draw(0,0)--(4,0);
+	\end{tikzpicture}\\
+	\vspace{0.2cm}
+	\emph{Co-Encadreur}\\
+	\vspace{0.2cm}
+	\textbf{Mr. GOUFACK}\\
+	\vspace{0.2cm}
+	Date:
+	\begin{tikzpicture}
+		\draw(0,0)--(4,0);
+	\end{tikzpicture}\\
+	\vspace{0.5cm}
+	\emph{Animateur Pédagogique}\\
+	\vspace{0.2cm}
+	\textbf{Mr. ELLA EMMANUEL}\\
+	\vspace{0.2cm}
+	Date:
+	\begin{tikzpicture}
+		\draw(0,0)--(4,0);
+	\end{tikzpicture}
+\end{center}
+\addcontentsline{toc}{chapter}{ATTESTATION}
+\chapter*{ATTESTATION}
+\hspace{1.2cm}
+C'est avec beaucoup d'enthousiasme que nous sommes les auteurs de ce projet << UNE APPLICATION MOBILE POUR LA GESTION DES EMPLOIES DE TEMPS SCOLAIRE >> et nous donnons la permission au lycée classique de Dschang, par l'intermédiaire du département d'informatique, de prêter ce projet à d'autres établissements scolaires ou individus à des fins de recherche académique. Nous comprenons la nature du plagiat et nous somme conscients de la politique éducative à ce sujet; nous somme convaincus que ce sujet est original et réalisé par nous au cours de nos étude pour l'obtention du BACCALAUREAT ESG en Technologie de l'information.
+\begin{center}
+\vspace{1cm}
+\vspace{0.2cm}
+\textbf{DEPARTEMENT INFO LYCLA}\\
+\vspace{0.2cm}
+Date:
+\begin{tikzpicture}
+	\draw(0,0)--(4,0);
+\end{tikzpicture}\\
+\vspace{0.2cm}
+Signature:
+\begin{tikzpicture}
+	\draw(0,0)--(4,0);
+\end{tikzpicture}
+\end{center}
+\phantomsection
+\addcontentsline{toc}{chapter}{DEDICACE}
+\chapter*{DEDICACE}
+\hspace{1.2cm} 
+\begin{center}
+	\textbf{nous dédions ce travail à nos parents}
+\end{center}
+\vspace{-1.5cm}
+\addcontentsline{toc}{chapter}{REMERCIEMENT}
+\chapter*{REMERCIEMENT}
+\vspace{-1.5cm}
+\hspace{1.cm}
+le mérite d'un travail ne revient pas toujours systématiquement à ses seuls acteurs. Nous ne pouvions donc pas conclure un tel ouvrage sans saluer les efforts de certaines personnes qui nous ont aidés et guidés de diverses manières. c'est pourquoi nous tenons à leur exprimer notre profonde gratitude, en particulier:
+\begin{itemize}[label=\textbullet, font=\LARGE %\color{blue}
+	]
+	\item Le proviseur du Lycée Classique de Dschang - \textbf{Mr ATEM NDE JEAN CLAUDE} qui a permis toutes les nécessités pour notre meilleure formation.
+	
+	\item Le Censeur en charge de l'informatique - \textbf{Mr TEMGOUA} pour sa faculté à nous trouver du stage et à veiller qu'on reçoivent de bon enseignements.
+	
+	\item L'animateur Pédagogique \textbf{Mr ELLA EMMANUEL}, Un modèle à suivre, pour nous avoir aider et guider tout au long de notre formation.
+	
+	\item Notre encadreur  \textbf{	Mr ELLA EMMANUEL }  pour ses conseils   
+	
+	\item Notre co-encadreur \textbf{Mr. GOUFACK } Pour sa supervision, sa disponibilité et ses conseils lors de notre formation  et pour sa supervision 
+	
+	
+	\item du personnel administratif, le Collège des enseignants du lycée classique de Dschang en général et les enseignants du département d'informatique en particulier;
+	
+	\item Tous les membres du jury qui ont pris leur temps précieux pour lire et nous aider à améliorer ce travail ; 
+	
+	\item 	 Nos parents, pour leur esprit de sacrifice, leur soutien financier et moral ainsi que leurs conseils et encouragements
+	\item 	 à tous nos camarades de classe qui ont créé autour de nous une excellente ambiance de travail
+	\item 	 nous remercions également ceux dont les noms ne sont pas mentionnés ici, pour leur aide
+\end{itemize}	
+
+\addcontentsline{toc}{chapter}{RESUME}
+\chapter*{RESUME}
+\hspace{1.2cm}
+Dans un établissement scolaire, la gestion des emplois du temps est une tâche complexe qui nécessite une organisation rigoureuse. Un mauvais agencement des horaires peut entraîner des conflits entre les enseignants, les salles de classe et les matières enseignées.
+
+L’objectif de ce projet est de développer une application de gestion des emplois du temps, permettant d’optimiser la planification des cours en fonction des disponibilités des professeurs, des salles et des classes. Cette application, développée en JavaFX avec une base de données SQLite, vise à automatiser la création et la gestion des emplois du temps pour améliorer l’efficacité et réduire les erreurs humaines.
+
+Ce rapport présente l’analyse du projet, les acteurs impliqués, ainsi que l’étude de faisabilité technique et organisationnelle.
+\bigskip 
+\bigskip
+\par 
+
+%\textbf{Mots-clés:} IMMOBIZ, application mobile, Android, immobilier
+\addcontentsline{toc}{chapter}{ABSTRACT}
+\chapter*{ABSTRACT}
+\hspace{1.2cm}
+In this era of new technology, it is essential to break with old methods of processing and access urgent and important information. It is in this perspective that we, being a student-teachers of the Computer Sciences Department, option IT level 400 have decided to work on “A MOBILE BASED APPLICATION FOR MANEGEMENT OF REAL ESTATE RESOURCES”. The aim of this project is to manage the lay-off and the search for property in the real estate sector. The mobile application is called IMMOBIZ, it is intended to help people find their future house or sell their property just in a few clicks. This report summarizes the entire process we have followed from selection, to implementation, to study and design of this property management system, it presents the specifications that were discussed with our supervisor and contains details and development method and UML for modeling of the application and hardware and software tools used to create the system which are: Laptop, Windows 10, Windev mobile 24, SDK this document presents in detail the work that we have done. 
+
+\bigskip 
+\bigskip
+\par 
+
+\textbf{Keywords:} IMMOBIZ, mobile application, Android, Real Estate 
+\addcontentsline{toc}{chapter}{LISTE DES ABRÉVIATIONS}
+\chapter*{LISTE DES ABRÉVIATIONS}
+\textbf{IDE} : Integrated Development environment 
+
+\textbf{OS} : 	 Operating System 
+
+\textbf{SQL} :  	Structured Query Language
+
+\textbf{HFSQL} : Hyper File SQL
+
+\textbf{IMMOBIZ} : Business Immobilier 
+\end{spacing}
+
+\tableofcontents
+
+\cleardoublepage
+\phantomsection
+
+\addcontentsline{toc}{chapter}{LISTE DES FIGURES}
+\listoffigures
+
+\cleardoublepage
+\phantomsection
+
+\addcontentsline{toc}{chapter}{LISTE DES TABLEAUX}
+\listoftables
+
+
+\addcontentsline{toc}{chapter}{INTRODUCTION GENERALE}
+
+
+\chapter*{INTRODUCTION GENERALE}
+\vspace{0.8cm}
+\pagenumbering{arabic}
+
+\section{contexte}
+lancée en octobre 1952, la Cameroun Real Estate Corporation (SIC) dont le capital appartient principalement à l'État, est l'une des principales institutions opérationnelles dans la mise en œuvre de la politique gouvernementale en matière de logement social. La Société est sous la supervision technique du ministre du Logement et du Développement urbain. Régi par la loi uniforme OHADA sur les sociétés commerciales et les groupes d'intérêt économique ainsi que par la loi n° 99/016 du 22 décembre 1999 relative au Statut général des établissements publics et des sociétés publiques et parapubliques, les principales missions de SIC sont de fournir des logements décents (avec logements prioritaires) et de les mettre à la disposition du public par la commercialisation par leasing, en espèces ou en versements. En tant que promoteur institutionnel chargé de la construction et de la gestion de logements sociaux au Cameroun, le SIC a déjà reçu des contributions de l'État, en termes d'actifs immobiliers, tirés de son stock privé, ainsi que des subventions sous forme de paysages par Maetur. En outre, le financement de ses opérations provenait de ressources internes (budget de l'État et banques locales) ainsi que de ressources externes (Caisse centrale de coopération économique), 
+aujourd'hui appelée l'Agence française de développement. Ce faisant, la société, avec le soutien des pouvoirs publics, a construit l'ensemble du parc social trouvé sur l'ensemble du territoire national, mais qui est encore bien en deçà de la demande. De 2004 à ce jour : la production financée par l'État reprend après deux décennies de récession économique, le gouvernement est revenu pour considérer le problème du logement comme une priorité, étant donné que le déficit s'est aggravé entre-temps, en raison de la croissance démographique et de l'exode rural, couplé à la dégradation des parc de logements. Pour la mise en œuvre des directives données par le chef de l'État, un groupe de réflexion a été mis en place sous la supervision du Premier ministre, chef du gouvernement, sous la forme d'un comité interministériel comprenant des acteurs institutionnels et privés du secteur. Pour la mise en œuvre des stratégies adoptées à la fin de ce groupe de réflexion, les actions gouvernementales se sont fondées sur deux grands axes : la réforme du cadre juridique et la production d'unités de logement afin de réduire le déficit. Dans cette ligne, de nombreux textes relatifs au logement ont ensuite été publiés, puis rédigés dans un code, et le programme gouvernemental pour la construction de 10 000 logements sociaux et le développement de 50 000 lots de construction ont été lancés. 
+
+\section{La problématique}
+Le logement est un besoin fondamental pour tous. Au fil des ans, l'augmentation de la population et du revenu a entraîné une augmentation équivalente de la demande de logements. La gestion manuelle de ces demandes posera de grands défis et difficultés ; Il est donc nécessaire d'automatiser le processus de gestion. La tenue d'un dossier dans un domaine concernant les terrains, les bâtiments et leurs propriétaires a été une grande tâche pour le gouvernement et les gouvernés. L'accès à des informations sur la propriété s'avère difficile à ce que la plupart du temps, les gens soient fraudés en raison du manque d'informations sur les biens. Les ventes illégales de terrains et de maisons sans le consentement du propriétaire sont très courantes. L'évaluation de la succession dans le but de payer des impôts au gouvernement n'est pas atteinte, d'où la nécessité d'informatiser le système de gestion des successions. Il semble y avoir de grandes différences dans les niveaux de renvoi des propriétés résidentielles et commerciales au Cameroun en général. Cette recherche cherche, entre autres, à découvrir les causes de la variation locative des propriétés commerciales et résidentielles à Kumba en tant qu'étude de cas. 
+
+\section{Objectifs du projet }
+ L'objectif principal de cette recherche est d'examiner les raisons de la variation mentale dans les propriétés commerciales et résidentielles en vue de fournir un outil à utiliser pour capturer les problèmes liés à la location sur ces propriétés à Kumba en général. 
+ Pour atteindre l'objectif standard, les objectifs suivants doivent être poursuivis : :
+\begin{itemize}
+	\item développer un logiciel qui conservera des informations sur la taille des terrains, l'emplacement des terrains et les propriétaires fonciers dans un domaine.
+	\item  Identifier le niveau des loyers des propriétés commerciales et résidentielles dans la zone d'étude.
+	\item . déterminer et examiner les facteurs influençant les loyers commandés par ces propriétés 
+	\item déterminer ou examiner si le revenu des acheteurs ou des locataires potentiels affecte leur décision d'acquérir des propriétés.
+	\item déterminer s'il existe une disparité dans les valeurs locatives des propriétés résidentielles et commerciales dans la zone d'étude.
+\end{itemize}
+
+\subsection{Objectif général du projet}
+
+L'objectif général de cette étude est de concevoir et de créer une application mobile pour gérer la numérisation des ressources immobilières et sa gestion
+
+\subsection{Objectifs spécifiques}
+Notre système doit être en mesure de faire ce qui suit:
+\begin{itemize}
+	\item 	l'occasion pour tout un chacun de louer une maison facilement.
+	\item 	 Informez les utilisateurs sur les différentes possibilités d'acquérir une localisation de biens immobiliers 
+	\item l'application fournira également la liste des logements disponibles et à 	proximité de n'importe quelle zone 
+	\item 	 capable de présenter toutes les propriétés disponibles
+	
+\end{itemize}
+
+
+\section{Importance du projet }
+La découverte de cette étude sera bénéfique pour les groupes suivants ; Premièrement, les locataires qui facturent des loyers pour différentes raisons, en particulier lorsque les propriétés sont de même nature (physiquement). Cela permettra à nouveau aux inventeurs non seulement de comprendre comment Occuper pense, mais aussi pourquoi et les choses qu'ils considèrent avant d'acquérir des propriétés pour certaines utilisations.
+
+ Deuxièmement, la généralité du public peut désormais comprendre la raison pour laquelle les loyers commandés par ces propriétés doivent différer. 
+ 
+ Enfin, ce travail de recherche aidera à déterminer les facteurs influençant les propriétés commerciales et résidentielles qui sont un préalable essentiel à un développement réussi et à stimuler l'intérêt pour les étudiants à poursuivre les recherches sur le sujet.
+
+
+\section{Le plan de rédaction }
+
+Ce travail est structuré comme suit :
+
+\begin{itemize}
+	\item 	la première section intitulée « Introduction générale » comprenant le contexte de l'étude, la problématique, les objectifs de l'étude, l'importance de l'étude, la portée de l'étude et l'aperçu de la rédaction; 
+	\item 	 Le premier chapitre intitulé « Contexte et revue de la littérature », y compris le contexte, la définition des termes et la revue de la littérature; 
+	\item 	 Le chapitre deux intitulé "Matériaux et méthodes" qui est le développement de tous les matériels et logiciels utilisés dans ce projet. L'aspect méthodologique comprenant une description des différents outils matériels et logiciels utilisés pour concevoir l'application et des méthodes d'analyse ; 
+	\item 	le chapitre trois intitulé « Évaluation des coûts (estimation) et réalisation » qui comprend le coût estimé de notre projet et les détails sur les différents diagrammes utilisés dans ce travail; 
+	\item The  Le chapitre quatre intitulé "Résultats et discussion" où les différents résultats seront affichés pour montrer les réponses à nos objectifs de recherche et la discussion sur les résultats obtenus ; 
+	\item  La dernière section intitulée « Conclusion et recommandations » constituait le résumé des conclusions et recommandations. 
+\end{itemize}
+\end{document}
