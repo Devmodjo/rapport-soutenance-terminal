@@ -162,7 +162,7 @@ le mérite d'un travail ne revient pas toujours systématiquement à ses seuls a
 \hspace{1.2cm}
 Dans un établissement scolaire, la gestion des emplois du temps est une tâche complexe qui nécessite une organisation rigoureuse. Un mauvais agencement des horaires peut entraîner des conflits entre les enseignants, les salles de classe et les matières enseignées.
 
-L’objectif de ce projet est de développer une application de gestion des emplois du temps, permettant d’optimiser la planification des cours en fonction des disponibilités des professeurs, des salles et des classes. Cette application, développée en JavaFX avec une base de données SQLite, vise à automatiser la création et la gestion des emplois du temps pour améliorer l’efficacité et réduire les erreurs humaines.
+L’objectif de ce projet est de développer une application de gestion des emplois du temps, permettant d’optimiser la planification des cours en fonction des disponibilités des professeurs, des salles et des classes. Cette application, développée en JavaFX et l'IDE Eclipse avec une base de données SQLite, vise à automatiser la création et la gestion des emplois du temps pour améliorer l’efficacité et réduire les erreurs humaines.
 
 Ce rapport présente l’analyse du projet, les acteurs impliqués, ainsi que l’étude de faisabilité technique et organisationnelle.
 \bigskip 
@@ -184,7 +184,7 @@ This report presents the project analysis, involved stakeholders, and the techni
 \bigskip
 \par 
 
-\textbf{Keywords:} IMMOBIZ, mobile application, Android, Real Estate 
+\textbf{Keywords:} IDE, JavaFX, application desktop, 
 \addcontentsline{toc}{chapter}{LISTE DES ABRÉVIATIONS}
 \chapter*{LISTE DES ABRÉVIATIONS}
 \textbf{IDE} : Integrated Development environment 
@@ -193,9 +193,9 @@ This report presents the project analysis, involved stakeholders, and the techni
 
 \textbf{SQL} :  	Structured Query Language
 
-\textbf{HFSQL} : Hyper File SQL
+\textbf{UML} : Unified Modeling Language
 
-\textbf{IMMOBIZ} : Business Immobilier 
+\textbf{CSS} : Cascading Style Sheets
 \end{spacing}
 
 \tableofcontents
@@ -221,8 +221,9 @@ This report presents the project analysis, involved stakeholders, and the techni
 \pagenumbering{arabic}
 
 \section{contexte}
-lancée en octobre 1952, la Cameroun Real Estate Corporation (SIC) dont le capital appartient principalement à l'État, est l'une des principales institutions opérationnelles dans la mise en œuvre de la politique gouvernementale en matière de logement social. La Société est sous la supervision technique du ministre du Logement et du Développement urbain. Régi par la loi uniforme OHADA sur les sociétés commerciales et les groupes d'intérêt économique ainsi que par la loi n° 99/016 du 22 décembre 1999 relative au Statut général des établissements publics et des sociétés publiques et parapubliques, les principales missions de SIC sont de fournir des logements décents (avec logements prioritaires) et de les mettre à la disposition du public par la commercialisation par leasing, en espèces ou en versements. En tant que promoteur institutionnel chargé de la construction et de la gestion de logements sociaux au Cameroun, le SIC a déjà reçu des contributions de l'État, en termes d'actifs immobiliers, tirés de son stock privé, ainsi que des subventions sous forme de paysages par Maetur. En outre, le financement de ses opérations provenait de ressources internes (budget de l'État et banques locales) ainsi que de ressources externes (Caisse centrale de coopération économique), 
-aujourd'hui appelée l'Agence française de développement. Ce faisant, la société, avec le soutien des pouvoirs publics, a construit l'ensemble du parc social trouvé sur l'ensemble du territoire national, mais qui est encore bien en deçà de la demande. De 2004 à ce jour : la production financée par l'État reprend après deux décennies de récession économique, le gouvernement est revenu pour considérer le problème du logement comme une priorité, étant donné que le déficit s'est aggravé entre-temps, en raison de la croissance démographique et de l'exode rural, couplé à la dégradation des parc de logements. Pour la mise en œuvre des directives données par le chef de l'État, un groupe de réflexion a été mis en place sous la supervision du Premier ministre, chef du gouvernement, sous la forme d'un comité interministériel comprenant des acteurs institutionnels et privés du secteur. Pour la mise en œuvre des stratégies adoptées à la fin de ce groupe de réflexion, les actions gouvernementales se sont fondées sur deux grands axes : la réforme du cadre juridique et la production d'unités de logement afin de réduire le déficit. Dans cette ligne, de nombreux textes relatifs au logement ont ensuite été publiés, puis rédigés dans un code, et le programme gouvernemental pour la construction de 10 000 logements sociaux et le développement de 50 000 lots de construction ont été lancés. 
+Dans un monde en constante évolution, l'organisation et la gestion efficace du temps sont devenues des enjeux majeurs pour les établissements scolaires. L'emploi du temps constitue un élément fondamental du bon fonctionnement d'un établissement, permettant de structurer les activités pédagogiques, d'optimiser l'utilisation des ressources et d'assurer un équilibre entre les contraintes des enseignants, des élèves et des infrastructures disponibles. Cependant, la planification et la gestion manuelle des emplois du temps peuvent s'avérer complexes et chronophages, entraînant des conflits d'horaire, une mauvaise allocation des salles et une difficulté à répondre aux imprévus. Pour pallier ces problématiques, l'intégration d'un système informatisé devient une nécessité afin d'automatiser et de simplifier ces processus.
+
+C’est dans cette optique que notre projet de gestion des emplois du temps a été conçu. Il vise à fournir une solution logicielle efficace permettant aux administrateurs scolaires de créer, modifier et consulter les emplois du temps en toute simplicité. Ce système offrira également aux enseignants et aux responsables pédagogiques un accès rapide aux informations essentielles, facilitant ainsi la coordination et l’organisation des cours. À travers ce rapport, nous présenterons l’ensemble des aspects liés à la conception, au développement et à la mise en œuvre de cette application, en mettant l’accent sur les besoins des utilisateurs, les choix technologiques et les bénéfices attendus.
 
 \section{La problématique}
 Le logement est un besoin fondamental pour tous. Au fil des ans, l'augmentation de la population et du revenu a entraîné une augmentation équivalente de la demande de logements. La gestion manuelle de ces demandes posera de grands défis et difficultés ; Il est donc nécessaire d'automatiser le processus de gestion. La tenue d'un dossier dans un domaine concernant les terrains, les bâtiments et leurs propriétaires a été une grande tâche pour le gouvernement et les gouvernés. L'accès à des informations sur la propriété s'avère difficile à ce que la plupart du temps, les gens soient fraudés en raison du manque d'informations sur les biens. Les ventes illégales de terrains et de maisons sans le consentement du propriétaire sont très courantes. L'évaluation de la succession dans le but de payer des impôts au gouvernement n'est pas atteinte, d'où la nécessité d'informatiser le système de gestion des successions. Il semble y avoir de grandes différences dans les niveaux de renvoi des propriétés résidentielles et commerciales au Cameroun en général. Cette recherche cherche, entre autres, à découvrir les causes de la variation locative des propriétés commerciales et résidentielles à Kumba en tant qu'étude de cas. 
