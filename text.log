@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.2.5)  2 APR 2025 16:12
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.2.5)  2 APR 2025 16:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1186,14 +1186,13 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.235 	\item
-             dÃ©velopper un logiciel qui conservera des informations sur la ...
-[1
+l.232 \section
+              {Objectifs du projet } [1
 
 ]
-Overfull \hbox (13.60515pt too wide) in paragraph at lines 235--236
-[]\T1/cmr/m/n/12 développer un logi-ciel qui con-servera des in-for-ma-tions su
-r la taille des ter-rains, l'emplacement
+Overfull \hbox (4.22273pt too wide) in paragraph at lines 238--239
+[]\T1/cmr/m/n/12 Gérer dy-namique-ment les im-prévus tels que les ab-sences des
+ en-seignants ou l'indisponibilité
  []
 
 
@@ -1229,7 +1228,7 @@ Here is how much of TeX's memory you used:
  49186 multiletter control sequences out of 15000+600000
  576594 words of font info for 73 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 84i,11n,91p,1295b,540s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 84i,11n,91p,930b,540s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\yvank\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm
 1200.pk> <C:\Users\yvank\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi60
 0\tcrm2074.pk> <C:\Users\yvank\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec
@@ -1247,9 +1246,9 @@ Users\yvank\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecxc1728.pk
 > <C:\Users\yvank\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecxc2
 488.pk> <C:\Users\yvank\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600
 \ecrm1200.pk>
-Output written on text.pdf (14 pages, 182059 bytes).
+Output written on text.pdf (14 pages, 185452 bytes).
 PDF statistics:
- 588 PDF objects out of 1000 (max. 8388607)
+ 597 PDF objects out of 1000 (max. 8388607)
  35 named destinations out of 1000 (max. 500000)
  149 words of extra memory for PDF output out of 10000 (max. 10000000)
 
