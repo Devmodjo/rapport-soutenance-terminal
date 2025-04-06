@@ -105,7 +105,7 @@ Nous attestons que ce projet intitulé << UNE APPLICATION DESKTOP POUR LA GESTIO
 \addcontentsline{toc}{chapter}{ATTESTATION}
 \chapter*{ATTESTATION}
 \hspace{1.2cm}
-C'est avec beaucoup d'enthousiasme que nous sommes les auteurs de ce projet << UNE APPLICATION DE BUREAU POUR LA GESTION DES EMPLOIES DE TEMPS SCOLAIRE >> et nous donnons la permission au lycée classique de Dschang, par l'intermédiaire du département d'informatique, de prêter ce projet à d'autres établissements scolaires ou individus à des fins de recherche académique. Nous comprenons la nature du plagiat et nous somme conscients de la politique éducative à ce sujet; nous somme convaincus que ce sujet est original et réalisé par nous au cours de nos étude pour l'obtention du BACCALAUREAT ESG en Technologie de l'information.
+C'est avec beaucoup d'enthousiasme que nous sommes les auteurs de ce projet << UNE APPLICATION DESKTOP POUR LA GESTION DES EMPLOIES DE TEMPS SCOLAIRE >> et nous donnons la permission au lycée classique de Dschang, par l'intermédiaire du département d'informatique, de prêter ce projet à d'autres établissements scolaires ou individus à des fins de recherche académique. Nous comprenons la nature du plagiat et nous somme conscients de la politique éducative à ce sujet; nous somme convaincus que ce sujet est original et réalisé par nous au cours de nos étude pour l'obtention du BACCALAUREAT ESG en Technologie de l'information.
 \begin{center}
 \vspace{1cm}
 \vspace{0.2cm}
@@ -195,7 +195,7 @@ This report presents the project analysis, involved stakeholders, and the techni
 
 \textbf{UML} : Unified Modeling Language
 
-\textbf{CSS} : Cascading Style Sheets
+\textbf{CSS} : Cascading StyleSheets
 \end{spacing}
 
 \tableofcontents
@@ -221,7 +221,7 @@ This report presents the project analysis, involved stakeholders, and the techni
 \pagenumbering{arabic}
 
 \section{contexte}
-Dans un monde en constante évolution, l'organisation et la gestion efficace du temps sont devenues des enjeux majeurs pour les établissements scolaires. L'emploi du temps constitue un élément fondamental du bon fonctionnement d'un établissement, permettant de structurer les activités pédagogiques, d'optimiser l'utilisation des ressources et d'assurer un équilibre entre les contraintes des enseignants, des élèves et des infrastructures disponibles. Cependant, la planification et la gestion manuelle des emplois du temps peuvent s'avérer complexes et chronophages, entraînant des conflits d'horaire, une mauvaise allocation des salles et une difficulté à répondre aux imprévus. Pour pallier ces problématiques, l'intégration d'un système informatisé devient une nécessité afin d'automatiser et de simplifier ces processus.
+Dans un monde en constante évolution, l'organisation et la gestion efficace du temps sont devenues des enjeux majeurs pour les établissements scolaires. L'emploi du temps constitue un élément fondamental du bon fonctionnement d'un établissement, permettant de structurer les activités pédagogiques, d'optimiser l'utilisation des ressources et d'assurer un équilibre entre les contraintes des enseignants, des élèves et des infrastructures disponibles. Cependant, la planification et la gestion manuelle des emplois du temps peuvent s'avérer complexes et chrono-phages, entraînant des conflits d'horaire, une mauvaise allocation des salles et une difficulté à répondre aux imprévus. Pour pallier ces problématiques, l'intégration d'un système informatisé devient une nécessité afin d'automatiser et de simplifier ces processus.
 
 C’est dans cette optique que notre projet de gestion des emplois du temps a été conçu. Il vise à fournir une solution logicielle efficace permettant aux administrateurs scolaires de créer, modifier et consulter les emplois du temps en toute simplicité. Ce système offrira également aux enseignants et aux responsables pédagogiques un accès rapide aux informations essentielles, facilitant ainsi la coordination et l’organisation des cours. À travers ce rapport, nous présenterons l’ensemble des aspects liés à la conception, au développement et à la mise en œuvre de cette application, en mettant l’accent sur les besoins des utilisateurs, les choix technologiques et les bénéfices attendus.
 
@@ -271,10 +271,49 @@ Ce travail est structuré comme suit :
 
 \begin{itemize}
 	\item 	la première section intitulée « Introduction générale » comprenant le contexte de l'étude, la problématique, les objectifs de l'étude, l'importance de l'étude, la portée de l'étude et l'aperçu de la rédaction; 
-	\item 	 Le premier chapitre intitulé « Contexte et revue de la littérature », y compris le contexte, la définition des termes et la revue de la littérature; 
+	\item 	 Le premier chapitre intitulé « étude de l'existant », y compris le contexte, la définition des termes et la revue de la littérature; 
 	\item 	 Le chapitre deux intitulé "Matériaux et méthodes" qui est le développement de tous les matériels et logiciels utilisés dans ce projet. L'aspect méthodologique comprenant une description des différents outils matériels et logiciels utilisés pour concevoir l'application et des méthodes d'analyse ; 
 	\item 	le chapitre trois intitulé « Évaluation des coûts (estimation) et réalisation » qui comprend le coût estimé de notre projet et les détails sur les différents diagrammes utilisés dans ce travail; 
-	\item The  Le chapitre quatre intitulé "Résultats et discussion" où les différents résultats seront affichés pour montrer les réponses à nos objectifs de recherche et la discussion sur les résultats obtenus ; 
+	\item Le chapitre quatre intitulé "Résultats et discussion" où les différents résultats seront affichés pour montrer les réponses à nos objectifs de recherche et la discussion sur les résultats obtenus ; 
 	\item  La dernière section intitulée « Conclusion et recommandations » constituait le résumé des conclusions et recommandations. 
 \end{itemize}
+
+% --------------premier chapitre
+\addcontentsline{toc}{chapter}{ÉTUDE DE L'EXISTANT}
+\chapter{ÉTUDE DE L'EXISTANT}
+\section{Présentation de l'établissement}
+L’établissement scolaire concerné est le lycée classique de Dschang accueillant plusieurs centaines d’élèves répartis dans différentes classes, filières et niveaux. Le corps enseignant est composé d’enseignants permanents et vacataires, encadrés par une équipe administrative comprenant notamment le proviseur, les censeurs, et les surveillants généraux.
+L’organisation pédagogique repose sur une répartition hebdomadaire des cours selon les disponibilités des professeurs, les ressources matérielles (salles de classe, laboratoires) et les contraintes pédagogiques propres à chaque filière.
+
+\section{Organisation actuelle de la gestion des emplois du temps}
+Actuellement, la gestion des emplois du temps est assurée manuellement par le personnel administratif, notamment le censeur chargé de la pédagogie. Celui-ci utilise principalement des outils bureautiques comme Microsoft Excel ou parfois même des feuilles papier pour planifier les horaires.
+Chaque emploi du temps est élaboré à la main en prenant en compte les disponibilités des enseignants, la répartition horaire des matières par semaine, les salles disponibles, et les contraintes de chevauchement. Une fois les plannings validés, ils sont imprimés et affichés dans les salles de classe.
+
+\section{Outils utilisés}
+\begin{itemize}
+	\item \textbf{Feuilles de calcul Excel} pour structurer les emplois du temps.
+	\item \textbf{Documents papier} pour les premiers brouillons et modifications manuelles.
+	\item \textbf{Communication orale} ou via messagerie interne pour informer les enseignants en cas de changement.
+	\item \textbf{Aucune base de données centralisée} n'est utilisée actuellement pour stocker les informations des enseignants, des classes ou des salles.
+\end{itemize}
+
+\section{Difficultés et limites du système actuel}
+La gestion manuelle présente de nombreuses limites:
+\begin{itemize}
+	\item Erreurs humaines fréquentes (conflits d’horaires, doublons, oublis).
+	\item Temps de traitement très long à chaque rentrée ou changement de planning.
+	\item Difficulté à modifier ou ajuster rapidement les emplois du temps.
+	\item Aucune automatisation des vérifications (disponibilité des profs, nombre d’heures, chevauchements).
+	\item Manque de traçabilité et d’archivage des emplois du temps précédents.
+\end{itemize}
+
+\section{Besoin d’un système informatisé}
+Pour répondre aux limites évoquées, il est essentiel de mettre en place un système informatisé permettant de :
+\begin{itemize}
+	\item Automatiser la création des emplois du temps.
+	\item Réduire les erreurs grâce à des vérifications automatiques.
+	\item Rendre l’accès aux emplois du temps plus simple et rapide, y compris pour les élèves et les enseignants.
+	\item Générer des exports PDF ou des impressions propres et formatées.
+\end{itemize}
+Le développement d’une application dédiée répond donc à un besoin réel \textbf{d’optimisation et de modernisation} de la gestion scolaire, tout en améliorant le quotidien des personnels administratifs.
 \end{document}

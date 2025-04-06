@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.2.5)  2 APR 2025 16:34
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.2.5)  6 APR 2025 02:13
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1213,19 +1213,53 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[3] (text.aux)
+[3]
+Chapter 1.
+
+Overfull \hbox (6.62369pt too wide) in paragraph at lines 288--288
+[]\T1/cmr/bx/n/17.28 Organisation actuelle de la ges-tion des em-plois du temps
+ 
+ []
+
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[4
+
+]
+Overfull \hbox (14.90617pt too wide) in paragraph at lines 306--307
+[]\T1/cmr/m/n/12 Aucune au-toma-ti-sa-tion des véri-fi-ca-tions (disponi-bil-it
+é des profs, nom-bre d'heures, chevauche-
+ []
+
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[5] (text.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
 Package rerunfilecheck Info: File `text.out' has not changed.
-(rerunfilecheck)             Checksum: 2987AAAA8D67CB6ADE6051EB3EB0CBC2;2281.
+(rerunfilecheck)             Checksum: BCFA472CF6AEC18EB8249A43377A86B0;3800.
  ) 
 Here is how much of TeX's memory you used:
- 26446 strings out of 473530
- 484432 string characters out of 5714795
- 870107 words of memory out of 5000000
- 49186 multiletter control sequences out of 15000+600000
+ 26460 strings out of 473530
+ 484584 string characters out of 5714795
+ 871106 words of memory out of 5000000
+ 49192 multiletter control sequences out of 15000+600000
  576594 words of font info for 73 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  84i,11n,91p,930b,562s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1246,9 +1280,9 @@ Users\yvank\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecxc1728.pk
 > <C:\Users\yvank\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecxc2
 488.pk> <C:\Users\yvank\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600
 \ecrm1200.pk>
-Output written on text.pdf (14 pages, 185784 bytes).
+Output written on text.pdf (16 pages, 201623 bytes).
 PDF statistics:
- 598 PDF objects out of 1000 (max. 8388607)
- 35 named destinations out of 1000 (max. 500000)
- 149 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 660 PDF objects out of 1000 (max. 8388607)
+ 43 named destinations out of 1000 (max. 500000)
+ 205 words of extra memory for PDF output out of 10000 (max. 10000000)
 

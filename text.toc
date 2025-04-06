@@ -16,3 +16,10 @@
 \contentsline {subsection}{\numberline {0.3.2}Objectifs spécifiques}{2}{subsection.0.3.2}%
 \contentsline {section}{\numberline {0.4}Importance du projet }{2}{section.0.4}%
 \contentsline {section}{\numberline {0.5}Le plan de rédaction }{3}{section.0.5}%
+\contentsline {chapter}{ÉTUDE DE L'EXISTANT}{3}{section.0.5}%
+\contentsline {chapter}{\numberline {1}ÉTUDE DE L'EXISTANT}{4}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Présentation de l'établissement}{4}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Organisation actuelle de la gestion des emplois du temps}{4}{section.1.2}%
+\contentsline {section}{\numberline {1.3}Outils utilisés}{4}{section.1.3}%
+\contentsline {section}{\numberline {1.4}Difficultés et limites du système actuel}{4}{section.1.4}%
+\contentsline {section}{\numberline {1.5}Besoin d’un système informatisé}{5}{section.1.5}%
