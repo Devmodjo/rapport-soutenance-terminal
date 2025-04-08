@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.2.5)  6 APR 2025 02:29
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.2.5)  9 APR 2025 00:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -929,24 +929,24 @@ File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
 ) (text.aux)
 \openout1 = `text.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
 
 (C:\Users\yvank\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
 ii
@@ -1007,14 +1007,14 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Info: Redefining \celsius on input line 39.
-Package gensymb Info: Faking symbols for \degree and \celsius on input line 39.
+LaTeX Info: Redefining \celsius on input line 43.
+Package gensymb Info: Faking symbols for \degree and \celsius on input line 43.
 
 
 Package gensymb Warning: Not defining \perthousand.
 
-LaTeX Info: Redefining \ohm on input line 39.
-Package gensymb Info: Using \Omega for \ohm on input line 39.
+LaTeX Info: Redefining \ohm on input line 43.
+Package gensymb Info: Using \Omega for \ohm on input line 43.
 
 Package gensymb Warning: Not defining \micro.
 
@@ -1022,24 +1022,24 @@ Package gensymb Warning: Not defining \micro.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
-Package hyperref Info: Link coloring OFF on input line 39.
+Package hyperref Info: Link coloring OFF on input line 43.
 (text.out) (text.out)
 \@outlinefile=\write5
 \openout5 = `text.out'.
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 44.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 48.
 
 
 (C:\Users\yvank\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 44.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 48.
 
 
 (C:\Users\yvank\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Overfull \hbox (42.25275pt too wide) in paragraph at lines 44--53
+Overfull \hbox (42.25275pt too wide) in paragraph at lines 48--57
  [] 
  []
 
@@ -1125,7 +1125,18 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [7
 
-] (text.toc)
+] (text.toc
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[8
+
+])
 \tf@toc=\write6
 \openout6 = `text.toc'.
 
@@ -1138,9 +1149,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[8
-
-] (text.lof)
+[9] (text.lof)
 \tf@lof=\write7
 \openout7 = `text.lof'.
 
@@ -1153,7 +1162,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[9
+[10
 
 
 ] (text.lot)
@@ -1169,7 +1178,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[10
+[11
 
 
 ]
@@ -1186,11 +1195,11 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.232 \section
+l.236 \section
               {Objectifs du projet } [1
 
 ]
-Overfull \hbox (4.22273pt too wide) in paragraph at lines 238--239
+Overfull \hbox (4.22273pt too wide) in paragraph at lines 242--243
 []\T1/cmr/m/n/12 Gérer dy-namique-ment les im-prévus tels que les ab-sences des
  en-seignants ou l'indisponibilité
  []
@@ -1205,13 +1214,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [2]
-Overfull \hbox (10.75572pt too wide) in paragraph at lines 275--276
+Overfull \hbox (10.75572pt too wide) in paragraph at lines 279--280
 []\T1/cmr/bx/n/12 Le pre-mier chapitre in-ti-t-ulé ^^S étude de l'existant ^^T 
 \T1/cmr/m/n/12 Cette par-tie anal-yse l'organisation
  []
 
 
-Overfull \hbox (12.94421pt too wide) in paragraph at lines 279--280
+Overfull \hbox (12.94421pt too wide) in paragraph at lines 283--284
 \T1/cmr/m/n/12 gage de pro-gram-ma-tion, base de don-nées, IDE, bib-lio-thèques
 ), l'architecture de l'application,
  []
@@ -1228,7 +1237,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [3]
 Chapter 1.
 
-Overfull \hbox (6.62369pt too wide) in paragraph at lines 291--291
+Overfull \hbox (6.62369pt too wide) in paragraph at lines 295--295
 []\T1/cmr/bx/n/17.28 Organisation actuelle de la ges-tion des em-plois du temps
  
  []
@@ -1245,7 +1254,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [4
 
 ]
-Overfull \hbox (14.90617pt too wide) in paragraph at lines 309--310
+Overfull \hbox (14.90617pt too wide) in paragraph at lines 313--314
 []\T1/cmr/m/n/12 Aucune au-toma-ti-sa-tion des véri-fi-ca-tions (disponi-bil-it
 é des profs, nom-bre d'heures, chevauche-
  []
@@ -1259,22 +1268,82 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[5] (text.aux)
+[5]
+Chapter 2.
+<dContext.png, id=272, 447.17062pt x 177.66376pt>
+File: dContext.png Graphic file (type png)
+<use dContext.png>
+Package pdftex.def Info: dContext.png  used on input line 368.
+(pdftex.def)             Requested size: 483.69687pt x 192.18033pt.
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[6
+
+]
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[7 <./dContext.png>]
+<dContext2.png, id=284, 414.04688pt x 375.65344pt>
+File: dContext2.png Graphic file (type png)
+<use dContext2.png>
+Package pdftex.def Info: dContext2.png  used on input line 406.
+(pdftex.def)             Requested size: 290.22107pt x 263.31673pt.
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[8 <./dContext2.png>]
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[9]
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[10] (text.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
 Package rerunfilecheck Info: File `text.out' has not changed.
-(rerunfilecheck)             Checksum: BCFA472CF6AEC18EB8249A43377A86B0;3800.
+(rerunfilecheck)             Checksum: 5ACE5702B9AE2C0CC56D5E0486069FBE;5844.
  ) 
 Here is how much of TeX's memory you used:
- 26460 strings out of 473530
- 484584 string characters out of 5714795
- 871106 words of memory out of 5000000
- 49192 multiletter control sequences out of 15000+600000
+ 26513 strings out of 473530
+ 485521 string characters out of 5714795
+ 873234 words of memory out of 5000000
+ 49227 multiletter control sequences out of 15000+600000
  576594 words of font info for 73 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 84i,11n,91p,930b,562s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 84i,12n,91p,930b,711s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\yvank\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm
 1200.pk> <C:\Users\yvank\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi60
 0\tcrm2074.pk> <C:\Users\yvank\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec
@@ -1292,9 +1361,9 @@ Users\yvank\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecxc1728.pk
 > <C:\Users\yvank\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecxc2
 488.pk> <C:\Users\yvank\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600
 \ecrm1200.pk>
-Output written on text.pdf (16 pages, 202004 bytes).
+Output written on text.pdf (22 pages, 279174 bytes).
 PDF statistics:
- 660 PDF objects out of 1000 (max. 8388607)
- 43 named destinations out of 1000 (max. 500000)
- 205 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 775 PDF objects out of 1000 (max. 8388607)
+ 61 named destinations out of 1000 (max. 500000)
+ 303 words of extra memory for PDF output out of 10000 (max. 10000000)
 

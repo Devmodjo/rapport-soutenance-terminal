@@ -1,4 +1,8 @@
 \documentclass[english,12pt,a4paper]{report}
+% permet l'utiliation des \subsubsection{}
+\setcounter{secnumdepth}{4}
+% ajout des subsubsection dans la table de matère
+\setcounter{tocdepth}{4}
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 \usepackage{amsmath}
@@ -321,5 +325,154 @@ Pour répondre aux limites évoquées, il est essentiel de mettre en place un sy
 Le développement d’une application dédiée répond donc à un besoin réel \textbf{d’optimisation et de modernisation} de la gestion scolaire, tout en améliorant le quotidien des personnels administratifs.
 
 % ----------------- chapitre 2
+\addcontentsline{toc}{chapter}{ANALYSE ET CONCEPTION}
+\chapter{ANALYSE ET CONCEPTION}
+\section{ANALYSE}
+Cette partie a pour objectif la spécification de manière claire de l’application. Pour ce faire, il est nécessaire de déterminer globalement ce qui se trouve dans le champ de l’application. De ce fait, on s’intéressera dans cette phase à l’identification des acteurs du système, leurs espaces et le contexte de l’application.
+\subsection{IDENTIFICATION DES ACTEURS DE L'APPLICATION}
+Pendant l’étude qu’on a effectuée, nous avons procédé à l’identification des
+principaux acteurs qui seront les futurs utilisateurs de l’application, ces acteurs
+sont :
+\begin{itemize}
+	%---------- admin
+	\item \textbf{l'administrateur}
+	\begin{itemize}
+		\item Gestion des utilisateurs
+		\item Gestion des Enseignants
+		\item Gestion des classes
+		\item Gestion des cours
+	\end{itemize}
+	%--------- responsable du temps
+	\item \textbf{Responsable des emploies de temps}
+	\begin{itemize}
+		\item Gestion des enseignements
+		\item Gestion des disponibilités
+		\item  Générer un emploie de temps
+		\item Gestion des emploies de temps
+	\end{itemize}
+	%----------- enseignant
+	\item \textbf{Enseignant}
+	\begin{itemize}
+		\item consulter son emploie de temps
+		\item consulter sa disponibilité
+	\end{itemize}
+\end{itemize}
+
+\subsection{DIAGRAMME DE CONTEXTE}
+Le diagramme de contexte est un modèle conceptuel de flux qui permet d’avoir
+une vision globale des interactions entre le système et les liens avec
+l’environnement extérieur. Il permet aussi de bien délimiter le champ de l’étude. Pour notre cas le contexte est donné par la figure suivante :
+% inclusion du diagramme de contexte(img)
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=1\textwidth]{dContext.png}
+	\caption{Diagramme de contexte}
+	\label{fig1: diagramme de contexte}
+\end{figure}
+
+\subsection{IDENTIFICATION DES ESPACES}
+A chaque acteur est attribué un espace qui regroupe toutes les tâches qu’il peut
+effectuer. Pour notre cas nous avons identifié quatre espaces :
+\begin{itemize}
+	\item Administrateur
+	\item Responsable des emploies de Temps
+	\item Enseignant
+\end{itemize}
+
+\section{CONCEPTION}
+C’est la phase la plus complexe du projet. Elle vise principalement à préciser le modèle de telle sorte qu’il puisse être implémenté avec les composantes de l’architecture, pour ce faire nous avons adopté une démarche pour une bonne conception.
+\subsection{LA DÉMARCHE DE CONCEPTION DE L'APPLICATION}
+Le processus de conception de notre projet se caractérise par deux niveaux : le niveau applicatif et le niveau donné.
+\begin{itemize}
+	\item \textbf{Niveau applicatif} \par
+	S’appuie essentiellement sur quelques diagrammes du langage de modélisation UML. Donc, après avoir identifié les principaux acteurs ainsi que leurs besoins, à travers notre étude, chose qui nous a permis d’identifier les différentes fonctionnalités du système à concevoir, nous avons opté pour la démarche suivante :
+	\begin{itemize}
+		\item Mettre en évidence les cas d’utilisation mis en œuvre par les utilisateurs futurs du système. Les diagrammes de cas d’utilisation détaillés sont élaborés
+		\item A l’aide du diagramme de séquence et d’activité, on formalise graphiquement les scénarios qui décrivent chaque cas d’utilisation.
+		\item Les classes sont définies par synthèse des diagrammes de séquence et d’activité. Une fois les classes manipulées sont identifiées, on passe à l’élaboration du diagramme de classe.
+	\end{itemize}
+	\item \textbf{Niveau donné} \par
+	Ce niveau concerne l’organisation conceptuelle, logique et physique des données manipulées. Durant la partie analyse nous avons pu identifier les données nécessaires et indispensables au bon fonctionnement de l’application et à travers la conception du niveau applicatif nous allons dégager les classes significatives. Dès lors on pourra élaborer la conception de la base de données.  La démarche que nous avons adoptée pour la conception de l’application s’appuie sur cinq éléments : \par
+	\textbf{1. identification des acteurs et des besoins} \\
+	\textbf{2. identification et représentation des cas d’utilisation}\\
+	\textbf{3. élaboration des diagrammes de séquences} \\
+	\textbf{4. élaboration des diagrammes d’activités}\\
+	\textbf{5. élaboration du diagramme de classe} \par
+	La figure ci-dessous donne la représentation graphique de la démarche de
+	modélisation choisie pour concevoir notre application :
+	% inclusion de la demarche de modelisation(img)
+	\begin{figure}[h]
+		\centering
+		\includegraphics[width=0.6\textwidth]{dContext2.png}
+		\caption{Cycle de modélisation de l’application.}
+		\label{fig2: Cycle de modélisation de l’application.}
+	\end{figure}
+\end{itemize}
+\subsection{LE NIVEAU APPLICATIF}
+\subsubsection{LES CAS D'UTILISATION}
+Un cas d’utilisation représente un ensemble de séquences d’actions qui sont réalisées par le système et qui produit un résultat observable intéressant pour un acteur particulier. Il permet de décrire ce que le système devra faire, sans spécifier comment le faire. Dans notre cas nous distinguons les cas d’utilisation suivant :
+% listing des different acteur et leur cas d'utilisation
+\begin{itemize}
+	\item \textbf{Administrateur}
+	\begin{itemize}
+		\item \textbf{Authentification}
+		\item \textbf{gestion des utilisateurs}
+		\begin{itemize}
+			\item création d'un nouvel utilisateur
+			\item modification des informations d'un utilisateur
+			\item suppression d'utilisateur
+			\item consultation des utilisateurs
+		\end{itemize}
+		\item \textbf{gestion des enseignants}
+		\begin{itemize}
+			\item crée un enseignant
+			\item modifier les informations d'un enseignant
+			\item supprimer un enseignant
+			\item consulter un enseignant et son emploie de temps
+		\end{itemize}
+		\item \textbf{gestion des classes}
+		\begin{itemize}
+			\item crée une classe
+			\item supprimer une classe
+			\item modifier une classe
+			\item consulter une classe et son emploie de temps
+		\end{itemize}
+		\item \textbf{gestion des matière}
+		\begin{itemize}
+			\item crée une nouvelle matière
+			\item supprimer une matière
+			\item modifier une matière
+			\item consulter les matières
+		\end{itemize}
+	\end{itemize}	
+	\item \textbf{Responsable des Emploies du Temps}
+	\begin{itemize}
+		\item \textbf{Authentification}
+		\item \textbf{gestion des enseignements}
+		\begin{itemize}
+			\item Affecter une matière a un enseignant
+			\item modifier
+			\item consulter
+		\end{itemize}
+		\item \textbf{gestion des emploie de temps}
+		\begin{itemize}
+			\item Générer un emploie de temps
+			\item consulter les emploies de temps
+		\end{itemize}
+		\item \textbf{gestion des disponibilités}
+		\begin{itemize}
+			\item établir les jours de services d'un enseignant
+			\item modifier la disponibilité d'un enseignant
+			\item consulter ses jours de services
+		\end{itemize}
+	\end{itemize}
+	\item \textbf{Enseignant}
+	\begin{itemize}
+		\item \textbf{consulter son emploie de temps}
+		\item \textbf{consulter sa disponibilité}
+		\item \textbf{consulter ses jours de services}
+	\end{itemize}
+\end{itemize}
+\subsubsection{DIAGRAMME DES CAS D'UTILISATION}
 
 \end{document}
