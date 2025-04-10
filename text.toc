@@ -34,3 +34,4 @@
 \contentsline {subsection}{\numberline {2.2.2}LE NIVEAU APPLICATIF}{9}{subsection.2.2.2}%
 \contentsline {subsubsection}{\numberline {2.2.2.1}LES CAS D'UTILISATION}{9}{subsubsection.2.2.2.1}%
 \contentsline {subsubsection}{\numberline {2.2.2.2}DIAGRAMME DES CAS D'UTILISATION}{10}{subsubsection.2.2.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.2.3}DIAGRAMME DE SÉQUENCE}{10}{subsubsection.2.2.2.3}%
