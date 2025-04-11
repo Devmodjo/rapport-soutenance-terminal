@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.2.5)  9 APR 2025 17:23
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.2.5)  11 APR 2025 04:06
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1320,23 +1320,20 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [9]
-<DiagrammeClasse.jpg, id=303, 908.39375pt x 827.09pt>
-File: DiagrammeClasse.jpg Graphic file (type jpg)
-<use DiagrammeClasse.jpg>
-Package pdftex.def Info: DiagrammeClasse.jpg  used on input line 480.
-(pdftex.def)             Requested size: 290.22107pt x 264.2451pt.
+<UseCaseDiagram1.jpg, id=303, 1277.77374pt x 1985.4175pt>
+File: UseCaseDiagram1.jpg Graphic file (type jpg)
+<use UseCaseDiagram1.jpg>
+Package pdftex.def Info: UseCaseDiagram1.jpg  used on input line 481.
+(pdftex.def)             Requested size: 284.5231pt x 199.15927pt.
 <AuthentificationSequence.jpg, id=304, 1498.59875pt x 646.415pt>
 File: AuthentificationSequence.jpg Graphic file (type jpg)
 <use AuthentificationSequence.jpg>
-Package pdftex.def Info: AuthentificationSequence.jpg  used on input line 489.
+Package pdftex.def Info: AuthentificationSequence.jpg  used on input line 490.
 (pdftex.def)             Requested size: 518.45773pt x 223.64093pt.
 
-Overfull \hbox (34.76086pt too wide) in paragraph at lines 489--490
+Overfull \hbox (34.76086pt too wide) in paragraph at lines 490--491
  [] 
  []
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 
@@ -1347,7 +1344,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[10 <./DiagrammeClasse.jpg>]
+[10 <./UseCaseDiagram1.jpg>]
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1367,7 +1364,7 @@ Package rerunfilecheck Info: File `text.out' has not changed.
 Here is how much of TeX's memory you used:
  26534 strings out of 473530
  486115 string characters out of 5714795
- 873374 words of memory out of 5000000
+ 873373 words of memory out of 5000000
  49244 multiletter control sequences out of 15000+600000
  576594 words of font info for 73 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1389,7 +1386,7 @@ Users\yvank\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecxc1728.pk
 > <C:\Users\yvank\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecxc2
 488.pk> <C:\Users\yvank\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600
 \ecrm1200.pk>
-Output written on text.pdf (23 pages, 638250 bytes).
+Output written on text.pdf (23 pages, 797535 bytes).
 PDF statistics:
  792 PDF objects out of 1000 (max. 8388607)
  65 named destinations out of 1000 (max. 500000)
