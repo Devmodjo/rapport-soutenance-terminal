@@ -37,5 +37,3 @@
 \contentsline {subsubsection}{\numberline {2.2.2.3}DIAGRAMME DE SÉQUENCE}{11}{subsubsection.2.2.2.3}%
 \contentsline {subsubsection}{\numberline {2.2.2.4}DIAGRAMME D'ACTIVITÉ}{13}{subsubsection.2.2.2.4}%
 \contentsline {subsubsection}{\numberline {2.2.2.5}DIAGRAMME DE CLASSE}{15}{subsubsection.2.2.2.5}%
-\contentsline {subsection}{\numberline {2.2.3}LE NIVEAU DONNÉ}{15}{subsection.2.2.3}%
-\contentsline {subsubsection}{\numberline {2.2.3.1}LE MODÈLE CONCEPTUEL DE DONNÉ}{15}{subsubsection.2.2.3.1}%
