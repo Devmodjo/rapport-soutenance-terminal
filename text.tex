@@ -538,12 +538,81 @@ Le diagramme de classe est un type de diagramme UML (Unified Modeling Language) 
 \end{figure}
  
  \chapter{IMPLEMENTATION}
+L’implémentation de notre application de gestion des emplois du temps a été réalisée principalement en \textbf{Java}, avec l’utilisation de \textbf{JavaFX} pour l’interface graphique, \textbf{SQLite} pour la base de données locale, et des bibliothèques externes telles que \textbf{iTextPDF} et \textbf{Apache POI} pour les fonctionnalités d’exportation. Le projet a été développé dans l’IDE \textbf{Eclipse} avec une structure modulaire afin de faciliter la maintenance et les évolutions futures.
+
 
  \section{INTERFACE ADMINISTRATEUR}
  L’interface administrateur représente \textbf{le cœur de la gestion des données} de base de l’application. Elle est accessible uniquement après authentification, garantissant ainsi la sécurité et le contrôle des accès. Cette interface permet à l'administrateur de configurer toutes les entités essentielles du système : \textbf{utilisateurs, classes, matières, et enseignants}.
  
  \subsection{Gestion des utilisateurs}
+ L'administrateur peut créer de nouveaux comptes pour les utilisateurs du système. Chaque utilisateur est identifié par un nom, un identifiant unique (login), et un mot de passe sécurisé. Ces données sont enregistrées dans une table SQLite dédiée, avec la possibilité de: 
+ \begin{itemize}
+ 	\item Ajouter un nouvel utilisateur
+ 	\item modifier un utilisateur existant
+ 	\item supprimer un utilisateur existant
+ \end{itemize}
+ Un contrôle est effectué pour empêcher la duplication de login.
+ %----------
+ \subsection{Gestion des classes}
+ Les classes représentent les entités centrales autour desquelles les emplois du temps sont construits. L’administrateur peut:
+ \begin{itemize}
+ 	\item Ajouter une nouvelle classe avec un identifiant et un nom (ex. : 6eA, Terminale C).
+ 	\item Modifier ou supprimer une classe existante.
+ \end{itemize}
+ Chaque classe est ensuite liée aux matières qui lui sont enseignées.
+ %------------
+ \subsection{Gestion des matières(par classe)}
+ Pour chaque classe, l’administrateur définit la liste des matières qui peuvent apparaître dans son emploi du temps. Cela permet une personnalisation par niveau ou série. L’interface propose :
+ \begin{itemize}
+ 	\item Un formulaire de saisie pour ajouter une matière à une classe.
+ 	\item Un tableau affichant toutes les matières associées à une classe donnée.
+ 	\item Des boutons pour enregistrer ou retirer une matière.
+ \end{itemize}
+ Cela permet d’assurer qu’une matière ne peut être programmée dans l’emploi du temps que si elle est officiellement rattachée à la classe.
+ %-------------
+ \subsection{Gestion des enseignants}
+ Chaque professeur est défini par un nom complet, un identifiant, et les matières qu’il enseigne. L’interface d’administration permet:
+ \begin{itemize}
+ 	\item L'ajout d’un nouveau enseignant.
+ 	\item La sélection des matières enseignées par cet enseignants.
+ \end{itemize}
+ Les données sont organisées dans la base de données de façon à permettre ensuite l’automatisation du remplissage ou de la vérification des horaires par enseignant.
+ \subsection{Interface graphique}
+ L’ensemble de l’interface administrateur est construit à l’aide de \textbf{JavaFX} et \textbf{Scene Builder}, avec un design réparti en plusieurs onglets ou menus latéraux. Les données sont affichées sous forme de \textbf{TableView}, et les formulaires de saisie utilisent des champs de type \textbf{TextField, ComboBox, et Button}.
  
+ Des fenêtres de confirmation, alertes d’erreur et messages de réussite sont gérés à travers une classe personnalisée \textbf{DialogBox}, ce qui améliore l’ergonomie de l’application.
+ 
+ % image
+ %\clearpage
+\begin{figure}[h]
+	\centering
+	\includegraphics*[height=10cm, width=12cm]{enregistrementUtilisateur.png}
+	\caption{interface d'enregistrement des utilisateurs}
+	\label{fig11: enregistrementUtilisateur}
+\end{figure} 
+
+\begin{figure}[h]
+	\centering
+	\includegraphics*[height=10cm, width=12cm]{enregistrementclasse.png}
+	\caption{interface d'enregistrement des classes}
+	\label{fig12: enregistrementClasse}
+\end{figure} 
+
+\begin{figure}[h]
+	\centering
+	\includegraphics*[height=10cm, width=12cm]{enregistrementMatiere.png}
+	\caption{interface d'enregistrement des matières}
+	\label{fig13: enregistrementMatiere}
+\end{figure} 
+
+\begin{figure}[h]
+	\centering
+	\includegraphics*[height=10cm, width=12cm]{enregistrementProfesseur.png}
+	\caption{interface d'enregistrement des enseignants}
+	\label{fig14: enregistrementProfesseur}
+\end{figure} 
+\clearpage
+
 
 
 \end{document}
