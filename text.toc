@@ -37,3 +37,4 @@
 \contentsline {subsubsection}{\numberline {2.2.2.3}DIAGRAMME DE SÉQUENCE}{10}{subsubsection.2.2.2.3}%
 \contentsline {subsubsection}{\numberline {2.2.2.4}DIAGRAMME D'ACTIVITÉ}{14}{subsubsection.2.2.2.4}%
 \contentsline {subsubsection}{\numberline {2.2.2.5}DIAGRAMME DE CLASSE}{16}{subsubsection.2.2.2.5}%
+\contentsline {chapter}{\numberline {3}IMPLEMENTATION}{17}{chapter.3}%
