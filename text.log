@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.2.5)  12 MAY 2025 16:13
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.2.5)  12 MAY 2025 16:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1270,7 +1270,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [5]
 Chapter 2.
-<dContext.png, id=308, 447.17062pt x 177.66376pt>
+<dContext.png, id=318, 447.17062pt x 177.66376pt>
 File: dContext.png Graphic file (type png)
 <use dContext.png>
 Package pdftex.def Info: dContext.png  used on input line 368.
@@ -1296,7 +1296,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [7 <./dContext.png>]
-<dContext2.png, id=320, 414.04688pt x 375.65344pt>
+<dContext2.png, id=330, 414.04688pt x 375.65344pt>
 File: dContext2.png Graphic file (type png)
 <use dContext2.png>
 Package pdftex.def Info: dContext2.png  used on input line 406.
@@ -1320,7 +1320,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [9]
-<UseCaseDiagram1.jpg, id=330, 1277.77374pt x 1985.4175pt>
+<UseCaseDiagram1.jpg, id=340, 1277.77374pt x 1985.4175pt>
 File: UseCaseDiagram1.jpg Graphic file (type jpg)
 <use UseCaseDiagram1.jpg>
 Package pdftex.def Info: UseCaseDiagram1.jpg  used on input line 481.
@@ -1333,7 +1333,7 @@ Overfull \hbox (28.45642pt too wide) in paragraph at lines 481--482
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<AuthentificationSequence.jpg, id=331, 1498.59875pt x 646.415pt>
+<AuthentificationSequence.jpg, id=341, 1498.59875pt x 646.415pt>
 File: AuthentificationSequence.jpg Graphic file (type jpg)
 <use AuthentificationSequence.jpg>
 Package pdftex.def Info: AuthentificationSequence.jpg  used on input line 491.
@@ -1343,18 +1343,18 @@ Overfull \hbox (34.76086pt too wide) in paragraph at lines 491--492
  [] 
  []
 
-<supprimerUtilisateurSequence.jpg, id=333, 1305.87875pt x 646.415pt>
+<supprimerUtilisateurSequence.jpg, id=343, 1305.87875pt x 646.415pt>
 File: supprimerUtilisateurSequence.jpg Graphic file (type jpg)
 <use supprimerUtilisateurSequence.jpg>
 Package pdftex.def Info: supprimerUtilisateurSequence.jpg  used on input line 4
 98.
 (pdftex.def)             Requested size: 451.784pt x 223.64093pt.
-<creeEmploieTempSequence.jpg, id=335, 1562.83875pt x 748.7975pt>
+<creeEmploieTempSequence.jpg, id=345, 1562.83875pt x 748.7975pt>
 File: creeEmploieTempSequence.jpg Graphic file (type jpg)
 <use creeEmploieTempSequence.jpg>
 Package pdftex.def Info: creeEmploieTempSequence.jpg  used on input line 504.
 (pdftex.def)             Requested size: 466.75671pt x 223.64093pt.
-<consulterEmploiTempSequence.jpg, id=337, 1037.8775pt x 646.415pt>
+<consulterEmploiTempSequence.jpg, id=347, 1037.8775pt x 646.415pt>
 File: consulterEmploiTempSequence.jpg Graphic file (type jpg)
 <use consulterEmploiTempSequence.jpg>
 Package pdftex.def Info: consulterEmploiTempSequence.jpg  used on input line 51
@@ -1409,12 +1409,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [13 <./consulterEmploiTempSequence.jpg>]
-<ActiviteAuthentification.jpg, id=360, 693.59125pt x 685.56125pt>
+<ActiviteAuthentification.jpg, id=370, 693.59125pt x 685.56125pt>
 File: ActiviteAuthentification.jpg Graphic file (type jpg)
 <use ActiviteAuthentification.jpg>
 Package pdftex.def Info: ActiviteAuthentification.jpg  used on input line 520.
 (pdftex.def)             Requested size: 377.10544pt x 372.73111pt.
-<ActivityCreeEmploieTemps.jpg, id=362, 694.595pt x 918.43124pt>
+<ActivityCreeEmploieTemps.jpg, id=372, 694.595pt x 918.43124pt>
 File: ActivityCreeEmploieTemps.jpg Graphic file (type jpg)
 <use ActivityCreeEmploieTemps.jpg>
 Package pdftex.def Info: ActivityCreeEmploieTemps.jpg  used on input line 526.
@@ -1444,7 +1444,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [15 <./ActivityCreeEmploieTemps.jpg>]
-<newdiagrammeclasse.jpg, id=374, 908.39375pt x 827.09pt>
+<newdiagrammeclasse.jpg, id=384, 908.39375pt x 827.09pt>
 File: newdiagrammeclasse.jpg Graphic file (type jpg)
 <use newdiagrammeclasse.jpg>
 Package pdftex.def Info: newdiagrammeclasse.jpg  used on input line 535.
@@ -1468,6 +1468,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
  <./newdiagrammeclasse.jpg>]
 Chapter 3.
 
+Overfull \hbox (17.65146pt too wide) in paragraph at lines 543--544
+\T1/cmr/m/n/12 L'interface ad-min-is-tra-teur représente \T1/cmr/bx/n/12 le c÷u
+r de la ges-tion des don-nées \T1/cmr/m/n/12 de base de l'application.
+ []
+
+
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1483,14 +1489,21 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
-Package rerunfilecheck Info: File `text.out' has not changed.
-(rerunfilecheck)             Checksum: 59758691CAAFB26BDB6D27A377502C72;6495.
+
+
+Package rerunfilecheck Warning: File `text.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `text.out':
+(rerunfilecheck)             Before: 26905DB92D258B883077D00FBB6CC1E5;6861
+(rerunfilecheck)             After:  E6C44D003D891E25260E67A4BFDA43A0;6861.
  ) 
 Here is how much of TeX's memory you used:
- 26600 strings out of 473530
- 488130 string characters out of 5714795
+ 26604 strings out of 473530
+ 488188 string characters out of 5714795
  873838 words of memory out of 5000000
- 49295 multiletter control sequences out of 15000+600000
+ 49297 multiletter control sequences out of 15000+600000
  576594 words of font info for 73 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  84i,12n,91p,930b,711s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1511,9 +1524,9 @@ Users\yvank\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecxc1728.pk
 > <C:\Users\yvank\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecxc2
 488.pk> <C:\Users\yvank\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600
 \ecrm1200.pk>
-Output written on text.pdf (29 pages, 1755901 bytes).
+Output written on text.pdf (29 pages, 1758622 bytes).
 PDF statistics:
- 868 PDF objects out of 1000 (max. 8388607)
- 80 named destinations out of 1000 (max. 500000)
- 417 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 881 PDF objects out of 1000 (max. 8388607)
+ 82 named destinations out of 1000 (max. 500000)
+ 433 words of extra memory for PDF output out of 10000 (max. 10000000)
 
