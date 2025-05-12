@@ -613,6 +613,38 @@ L’implémentation de notre application de gestion des emplois du temps a été
 \end{figure} 
 \clearpage
 
+\section{Enregistrement des emplois du temps}
+L’application permet d’enregistrer les emplois du temps des différentes classes via une interface intuitive. Les utilisateurs peuvent sélectionner un jour de la semaine, spécifier les périodes horaires et attribuer les matières correspondantes. Ces données sont ensuite enregistrées dans la base de données SQLite.
+
+Un contrôle de saisie est mis en place pour éviter les doublons ou les champs vides, garantissant ainsi la cohérence des données.
+
+\section{Consultation des emplois du temps}
+L’onglet de consultation permet de visualiser les emplois du temps:
+\begin{itemize}
+	\item \textbf{Par classe} : L'utilisateur sélectionne une classe, et l’application lui permet d'imprimer son emploi de temps en fonction de l'année scolaire sélectionnée.
+	\item \textbf{Pour l'établissement}: Pour consulter l'emploi du temps de l'établissement, l'utilisateur peut le générer en sélectionnant une année scolaire.
+\end{itemize}
+
+\section{Exportation et impression}
+Deux formats d’exportation ont été implémentés :
+\subsection{Génération PDF (avec iTextPDF)}
+Un bouton permet de générer un fichier PDF d’un emploi du temps spécifique. Le fichier est mis en page de manière claire, avec un en-tête contenant les informations essentielles.
+\subsection{Génération Excel (avec Apache POI)}
+L’utilisateur peut également exporter les emplois du temps dans un fichier Excel structuré selon un canevas spécifique. Chaque jour de la semaine y apparaît une seule fois, englobant les 7 périodes horaires. Des bordures et un formatage sont appliqués pour améliorer la lisibilité.
+%\clearpage
+\begin{figure}[h]
+	\centering
+	\includegraphics*[height=10cm, width=12cm]{enregistrementEmploiTempsClasse.png}
+	\caption{interface d'enregistrement des emplois de temps par classe}
+	\label{fig15: enregistrementEmploieTempsClasse}
+\end{figure} 
+
+\begin{figure}[h]
+	\centering
+	\includegraphics*[height=10cm, width=12cm]{interfaceConsultationEmploiTemps.png}
+	\caption{interface de consultation}
+	\label{fig16: consultation}
+\end{figure} 
 
 
 \end{document}

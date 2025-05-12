@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.2.5)  12 MAY 2025 18:30
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.2.5)  12 MAY 2025 18:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1270,7 +1270,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [5]
 Chapter 2.
-<dContext.png, id=346, 447.17062pt x 177.66376pt>
+<dContext.png, id=375, 447.17062pt x 177.66376pt>
 File: dContext.png Graphic file (type png)
 <use dContext.png>
 Package pdftex.def Info: dContext.png  used on input line 368.
@@ -1296,7 +1296,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [7 <./dContext.png>]
-<dContext2.png, id=358, 414.04688pt x 375.65344pt>
+<dContext2.png, id=387, 414.04688pt x 375.65344pt>
 File: dContext2.png Graphic file (type png)
 <use dContext2.png>
 Package pdftex.def Info: dContext2.png  used on input line 406.
@@ -1320,7 +1320,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [9]
-<UseCaseDiagram1.jpg, id=368, 1277.77374pt x 1985.4175pt>
+<UseCaseDiagram1.jpg, id=397, 1277.77374pt x 1985.4175pt>
 File: UseCaseDiagram1.jpg Graphic file (type jpg)
 <use UseCaseDiagram1.jpg>
 Package pdftex.def Info: UseCaseDiagram1.jpg  used on input line 481.
@@ -1333,7 +1333,7 @@ Overfull \hbox (28.45642pt too wide) in paragraph at lines 481--482
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<AuthentificationSequence.jpg, id=369, 1498.59875pt x 646.415pt>
+<AuthentificationSequence.jpg, id=398, 1498.59875pt x 646.415pt>
 File: AuthentificationSequence.jpg Graphic file (type jpg)
 <use AuthentificationSequence.jpg>
 Package pdftex.def Info: AuthentificationSequence.jpg  used on input line 491.
@@ -1343,18 +1343,18 @@ Overfull \hbox (34.76086pt too wide) in paragraph at lines 491--492
  [] 
  []
 
-<supprimerUtilisateurSequence.jpg, id=371, 1305.87875pt x 646.415pt>
+<supprimerUtilisateurSequence.jpg, id=400, 1305.87875pt x 646.415pt>
 File: supprimerUtilisateurSequence.jpg Graphic file (type jpg)
 <use supprimerUtilisateurSequence.jpg>
 Package pdftex.def Info: supprimerUtilisateurSequence.jpg  used on input line 4
 98.
 (pdftex.def)             Requested size: 451.784pt x 223.64093pt.
-<creeEmploieTempSequence.jpg, id=373, 1562.83875pt x 748.7975pt>
+<creeEmploieTempSequence.jpg, id=402, 1562.83875pt x 748.7975pt>
 File: creeEmploieTempSequence.jpg Graphic file (type jpg)
 <use creeEmploieTempSequence.jpg>
 Package pdftex.def Info: creeEmploieTempSequence.jpg  used on input line 504.
 (pdftex.def)             Requested size: 466.75671pt x 223.64093pt.
-<consulterEmploiTempSequence.jpg, id=375, 1037.8775pt x 646.415pt>
+<consulterEmploiTempSequence.jpg, id=404, 1037.8775pt x 646.415pt>
 File: consulterEmploiTempSequence.jpg Graphic file (type jpg)
 <use consulterEmploiTempSequence.jpg>
 Package pdftex.def Info: consulterEmploiTempSequence.jpg  used on input line 51
@@ -1409,12 +1409,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [13 <./consulterEmploiTempSequence.jpg>]
-<ActiviteAuthentification.jpg, id=398, 693.59125pt x 685.56125pt>
+<ActiviteAuthentification.jpg, id=427, 693.59125pt x 685.56125pt>
 File: ActiviteAuthentification.jpg Graphic file (type jpg)
 <use ActiviteAuthentification.jpg>
 Package pdftex.def Info: ActiviteAuthentification.jpg  used on input line 520.
 (pdftex.def)             Requested size: 377.10544pt x 372.73111pt.
-<ActivityCreeEmploieTemps.jpg, id=400, 694.595pt x 918.43124pt>
+<ActivityCreeEmploieTemps.jpg, id=429, 694.595pt x 918.43124pt>
 File: ActivityCreeEmploieTemps.jpg Graphic file (type jpg)
 <use ActivityCreeEmploieTemps.jpg>
 Package pdftex.def Info: ActivityCreeEmploieTemps.jpg  used on input line 526.
@@ -1444,7 +1444,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [15 <./ActivityCreeEmploieTemps.jpg>]
-<newdiagrammeclasse.jpg, id=412, 908.39375pt x 827.09pt>
+<newdiagrammeclasse.jpg, id=441, 908.39375pt x 827.09pt>
 File: newdiagrammeclasse.jpg Graphic file (type jpg)
 <use newdiagrammeclasse.jpg>
 Package pdftex.def Info: newdiagrammeclasse.jpg  used on input line 535.
@@ -1490,7 +1490,7 @@ Overfull \hbox (5.60185pt too wide) in paragraph at lines 579--580
  à per-me-t-tre en-suite l'automatisation
  []
 
-<enregistrementUtilisateur.png, id=423, 813.79031pt x 502.87875pt>
+<enregistrementUtilisateur.png, id=452, 813.79031pt x 502.87875pt>
 File: enregistrementUtilisateur.png Graphic file (type png)
 <use enregistrementUtilisateur.png>
 Package pdftex.def Info: enregistrementUtilisateur.png  used on input line 589.
@@ -1499,7 +1499,7 @@ Package pdftex.def Info: enregistrementUtilisateur.png  used on input line 589.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<enregistrementclasse.png, id=425, 803.25093pt x 496.10344pt>
+<enregistrementclasse.png, id=454, 803.25093pt x 496.10344pt>
 File: enregistrementclasse.png Graphic file (type png)
 <use enregistrementclasse.png>
 Package pdftex.def Info: enregistrementclasse.png  used on input line 596.
@@ -1507,7 +1507,7 @@ Package pdftex.def Info: enregistrementclasse.png  used on input line 596.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<enregistrementMatiere.png, id=427, 811.53188pt x 502.87875pt>
+<enregistrementMatiere.png, id=456, 811.53188pt x 502.87875pt>
 File: enregistrementMatiere.png Graphic file (type png)
 <use enregistrementMatiere.png>
 Package pdftex.def Info: enregistrementMatiere.png  used on input line 603.
@@ -1515,7 +1515,7 @@ Package pdftex.def Info: enregistrementMatiere.png  used on input line 603.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<enregistrementProfesseur.png, id=429, 805.50937pt x 499.8675pt>
+<enregistrementProfesseur.png, id=458, 805.50937pt x 499.8675pt>
 File: enregistrementProfesseur.png Graphic file (type png)
 <use enregistrementProfesseur.png>
 Package pdftex.def Info: enregistrementProfesseur.png  used on input line 610.
@@ -1550,19 +1550,60 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[20 <./enregistrementMatiere.png> <./enregistrementProfesseur.png>] (text.aux)
+[20 <./enregistrementMatiere.png> <./enregistrementProfesseur.png>]
+<enregistrementEmploiTempsClasse.png, id=481, 811.53188pt x 502.87875pt>
+File: enregistrementEmploiTempsClasse.png Graphic file (type png)
+<use enregistrementEmploiTempsClasse.png>
+Package pdftex.def Info: enregistrementEmploiTempsClasse.png  used on input lin
+e 637.
+(pdftex.def)             Requested size: 341.43544pt x 284.52603pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<interfaceConsultationEmploiTemps.png, id=483, 808.52063pt x 504.38437pt>
+File: interfaceConsultationEmploiTemps.png Graphic file (type png)
+<use interfaceConsultationEmploiTemps.png>
+Package pdftex.def Info: interfaceConsultationEmploiTemps.png  used on input li
+ne 644.
+(pdftex.def)             Requested size: 341.43924pt x 284.53131pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[21
+
+]
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[22 <./enregistrementEmploiTempsClasse.png> <./interfaceConsultationEmploiTemps
+.png>] (text.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
 Package rerunfilecheck Info: File `text.out' has not changed.
-(rerunfilecheck)             Checksum: 2FC9FE3DA7BF3B06FB9FE24176BC0033;7607.
+(rerunfilecheck)             Checksum: E3CBB42B6B4D51DCD807D27FD0F4FBE4;8756.
  ) 
 Here is how much of TeX's memory you used:
- 26651 strings out of 473530
- 489473 string characters out of 5714795
- 874137 words of memory out of 5000000
- 49333 multiletter control sequences out of 15000+600000
+ 26681 strings out of 473530
+ 490316 string characters out of 5714795
+ 874288 words of memory out of 5000000
+ 49354 multiletter control sequences out of 15000+600000
  576594 words of font info for 73 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  84i,12n,91p,930b,711s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1583,9 +1624,9 @@ Users\yvank\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecxc1728.pk
 > <C:\Users\yvank\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecxc2
 488.pk> <C:\Users\yvank\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600
 \ecrm1200.pk>
-Output written on text.pdf (32 pages, 1892271 bytes).
+Output written on text.pdf (34 pages, 1968385 bytes).
 PDF statistics:
- 947 PDF objects out of 1000 (max. 8388607)
- 93 named destinations out of 1000 (max. 500000)
- 509 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 995 PDF objects out of 1000 (max. 8388607)
+ 102 named destinations out of 1000 (max. 500000)
+ 571 words of extra memory for PDF output out of 10000 (max. 10000000)
 
