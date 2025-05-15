@@ -23,29 +23,36 @@
 \contentsline {section}{\numberline {1.3}Outils utilisés}{4}{section.1.3}%
 \contentsline {section}{\numberline {1.4}Difficultés et limites du système actuel}{4}{section.1.4}%
 \contentsline {section}{\numberline {1.5}Besoin d’un système informatisé}{5}{section.1.5}%
-\contentsline {chapter}{ANALYSE ET CONCEPTION}{5}{section.1.5}%
-\contentsline {chapter}{\numberline {2}ANALYSE ET CONCEPTION}{6}{chapter.2}%
-\contentsline {section}{\numberline {2.1}ANALYSE}{6}{section.2.1}%
-\contentsline {subsection}{\numberline {2.1.1}IDENTIFICATION DES ACTEURS DE L'APPLICATION}{6}{subsection.2.1.1}%
-\contentsline {subsection}{\numberline {2.1.2}DIAGRAMME DE CONTEXTE}{7}{subsection.2.1.2}%
-\contentsline {subsection}{\numberline {2.1.3}IDENTIFICATION DES ESPACES}{7}{subsection.2.1.3}%
-\contentsline {section}{\numberline {2.2}CONCEPTION}{7}{section.2.2}%
-\contentsline {subsection}{\numberline {2.2.1}LA DÉMARCHE DE CONCEPTION DE L'APPLICATION}{7}{subsection.2.2.1}%
-\contentsline {subsection}{\numberline {2.2.2}LE NIVEAU APPLICATIF}{9}{subsection.2.2.2}%
-\contentsline {subsubsection}{\numberline {2.2.2.1}LES CAS D'UTILISATION}{9}{subsubsection.2.2.2.1}%
-\contentsline {subsubsection}{\numberline {2.2.2.2}DIAGRAMME DES CAS D'UTILISATION}{10}{subsubsection.2.2.2.2}%
-\contentsline {subsubsection}{\numberline {2.2.2.3}DIAGRAMME DE SÉQUENCE}{10}{subsubsection.2.2.2.3}%
-\contentsline {subsubsection}{\numberline {2.2.2.4}DIAGRAMME D'ACTIVITÉ}{14}{subsubsection.2.2.2.4}%
-\contentsline {subsubsection}{\numberline {2.2.2.5}DIAGRAMME DE CLASSE}{16}{subsubsection.2.2.2.5}%
-\contentsline {chapter}{\numberline {3}IMPLEMENTATION}{17}{chapter.3}%
-\contentsline {section}{\numberline {3.1}INTERFACE ADMINISTRATEUR}{17}{section.3.1}%
-\contentsline {subsection}{\numberline {3.1.1}Gestion des utilisateurs}{17}{subsection.3.1.1}%
-\contentsline {subsection}{\numberline {3.1.2}Gestion des classes}{17}{subsection.3.1.2}%
-\contentsline {subsection}{\numberline {3.1.3}Gestion des matières(par classe)}{18}{subsection.3.1.3}%
-\contentsline {subsection}{\numberline {3.1.4}Gestion des enseignants}{18}{subsection.3.1.4}%
-\contentsline {subsection}{\numberline {3.1.5}Interface graphique}{18}{subsection.3.1.5}%
-\contentsline {section}{\numberline {3.2}Enregistrement des emplois du temps}{21}{section.3.2}%
-\contentsline {section}{\numberline {3.3}Consultation des emplois du temps}{21}{section.3.3}%
-\contentsline {section}{\numberline {3.4}Exportation et impression}{21}{section.3.4}%
-\contentsline {subsection}{\numberline {3.4.1}Génération PDF (avec iTextPDF)}{21}{subsection.3.4.1}%
-\contentsline {subsection}{\numberline {3.4.2}Génération Excel (avec Apache POI)}{21}{subsection.3.4.2}%
+\contentsline {chapter}{\numberline {2}DIAGRAMME DE GANTT}{6}{chapter.2}%
+\contentsline {section}{\numberline {2.1}INTRODUCTION}{6}{section.2.1}%
+\contentsline {section}{\numberline {2.2}DÉFINITION}{6}{section.2.2}%
+\contentsline {section}{\numberline {2.3}IMPORTANCE DANS NOTRE PROJET}{6}{section.2.3}%
+\contentsline {chapter}{ANALYSE ET CONCEPTION}{7}{figure.caption.16}%
+\contentsline {chapter}{\numberline {3}ANALYSE ET CONCEPTION}{8}{chapter.3}%
+\contentsline {section}{\numberline {3.1}ANALYSE}{8}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}IDENTIFICATION DES ACTEURS DE L'APPLICATION}{8}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.2}DIAGRAMME DE CONTEXTE}{9}{subsection.3.1.2}%
+\contentsline {subsection}{\numberline {3.1.3}IDENTIFICATION DES ESPACES}{9}{subsection.3.1.3}%
+\contentsline {section}{\numberline {3.2}CONCEPTION}{9}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}LA DÉMARCHE DE CONCEPTION DE L'APPLICATION}{9}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}LE NIVEAU APPLICATIF}{11}{subsection.3.2.2}%
+\contentsline {subsubsection}{\numberline {3.2.2.1}LES CAS D'UTILISATION}{11}{subsubsection.3.2.2.1}%
+\contentsline {subsubsection}{\numberline {3.2.2.2}DIAGRAMME DES CAS D'UTILISATION}{12}{subsubsection.3.2.2.2}%
+\contentsline {subsubsection}{\numberline {3.2.2.3}DIAGRAMME DE SÉQUENCE}{12}{subsubsection.3.2.2.3}%
+\contentsline {subsubsection}{\numberline {3.2.2.4}DIAGRAMME D'ACTIVITÉ}{16}{subsubsection.3.2.2.4}%
+\contentsline {subsubsection}{\numberline {3.2.2.5}DIAGRAMME DE CLASSE}{18}{subsubsection.3.2.2.5}%
+\contentsline {chapter}{\numberline {4}IMPLEMENTATION}{19}{chapter.4}%
+\contentsline {section}{\numberline {4.1}INTERFACE ADMINISTRATEUR}{19}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}Gestion des utilisateurs}{19}{subsection.4.1.1}%
+\contentsline {subsection}{\numberline {4.1.2}Gestion des classes}{19}{subsection.4.1.2}%
+\contentsline {subsection}{\numberline {4.1.3}Gestion des matières(par classe)}{20}{subsection.4.1.3}%
+\contentsline {subsection}{\numberline {4.1.4}Gestion des enseignants}{20}{subsection.4.1.4}%
+\contentsline {subsection}{\numberline {4.1.5}Interface graphique}{20}{subsection.4.1.5}%
+\contentsline {section}{\numberline {4.2}Enregistrement des emplois du temps}{23}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Consultation des emplois du temps}{23}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Exportation et impression}{23}{section.4.4}%
+\contentsline {subsection}{\numberline {4.4.1}Génération PDF (avec iTextPDF)}{23}{subsection.4.4.1}%
+\contentsline {subsection}{\numberline {4.4.2}Génération Excel (avec Apache POI)}{23}{subsection.4.4.2}%
+\contentsline {chapter}{\numberline {5}Conclusion et Recommandations}{25}{chapter.5}%
+\contentsline {section}{\numberline {5.1}CONCLUSION}{25}{section.5.1}%
+\contentsline {section}{\numberline {5.2}RECOMMANDATIONS}{25}{section.5.2}%

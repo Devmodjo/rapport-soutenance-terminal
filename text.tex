@@ -324,6 +324,41 @@ Pour répondre aux limites évoquées, il est essentiel de mettre en place un sy
 \end{itemize}
 Le développement d’une application dédiée répond donc à un besoin réel \textbf{d’optimisation et de modernisation} de la gestion scolaire, tout en améliorant le quotidien des personnels administratifs.
 
+\chapter{DIAGRAMME DE GANTT}
+\section{INTRODUCTION}
+Lors de la planification d’un projet logiciel, il est crucial de disposer d’un outil permettant de visualiser l’enchaînement des tâches dans le temps. Le diagramme de Gantt est un outil de gestion de projet très répandu pour cette finalité. Il a été utilisé dans le cadre de notre projet afin de mieux organiser les différentes étapes de développement de l'application de gestion des emplois du temps.
+\section{DÉFINITION}
+Le \textbf{diagramme de Gantt} est un graphique à barres utilisé pour représenter visuellement l’avancement des différentes tâches d’un projet en fonction du temps. Chaque tâche y est représentée par une barre horizontale, dont la longueur correspond à la durée prévue de la tâche, et l’emplacement reflète le calendrier prévu.
+\section{IMPORTANCE DANS NOTRE PROJET}
+Dans le cadre de la réalisation de notre application, le diagramme de Gantt a permis de :
+\begin{itemize}
+	\item \textbf{Définir clairement les différentes étapes du projet} : analyse, conception, développement, tests et déploiement.
+	\item \textbf{Évaluer la durée de chaque activité}.
+	\item \textbf{Assurer un meilleur suivi de l’avancement du projet}.
+	\item \textbf{Répartir les tâches efficacement dans le temps, en évitant les retards et les chevauchements}.
+\end{itemize}
+Grâce à cet outil, nous avons pu structurer le travail, suivre les délais et respecter la chronologie prévue. Il a donc joué un rôle clé dans la bonne gestion du temps et des ressources durant tout le cycle de développement.
+\clearpage
+
+\begin{figure}[h]
+	\centering
+	\begin{center}
+		\includegraphics*[height=0.3 \textheight]{gantTache.png}
+	\end{center}
+	\caption{présentation des différentes tâche de l'application}
+	\label{fig17: gantPresentation des tache}
+\end{figure}
+
+\begin{figure}[h]
+	\centering
+	\begin{center}
+		\includegraphics[height=5cm, width=15cm]{gantDiagram.png}
+	\end{center}
+	\caption{diagramme de Gantt}
+	\label{fig18: gantPresentation}
+\end{figure}
+
+
 % ----------------- chapitre 2
 \addcontentsline{toc}{chapter}{ANALYSE ET CONCEPTION}
 \chapter{ANALYSE ET CONCEPTION}
@@ -537,6 +572,7 @@ Le diagramme de classe est un type de diagramme UML (Unified Modeling Language) 
 	\label{fig10: diagramme de classe}
 \end{figure}
  
+ 
  \chapter{IMPLEMENTATION}
 L’implémentation de notre application de gestion des emplois du temps a été réalisée principalement en \textbf{Java}, avec l’utilisation de \textbf{JavaFX} pour l’interface graphique, \textbf{SQLite} pour la base de données locale, et des bibliothèques externes telles que \textbf{iTextPDF} et \textbf{Apache POI} pour les fonctionnalités d’exportation. Le projet a été développé dans l’IDE \textbf{Eclipse} avec une structure modulaire afin de faciliter la maintenance et les évolutions futures.
 
@@ -631,6 +667,7 @@ Deux formats d’exportation ont été implémentés :
 Un bouton permet de générer un fichier PDF d’un emploi du temps spécifique. Le fichier est mis en page de manière claire, avec un en-tête contenant les informations essentielles.
 \subsection{Génération Excel (avec Apache POI)}
 L’utilisateur peut également exporter les emplois du temps dans un fichier Excel structuré selon un canevas spécifique. Chaque jour de la semaine y apparaît une seule fois, englobant les 7 périodes horaires. Des bordures et un formatage sont appliqués pour améliorer la lisibilité.
+
 %\clearpage
 \begin{figure}[h]
 	\centering
@@ -646,5 +683,32 @@ L’utilisateur peut également exporter les emplois du temps dans un fichier Ex
 	\label{fig16: consultation}
 \end{figure} 
 
+\chapter{Conclusion et Recommandations}
+\section{CONCLUSION}
+La réalisation de cette application de gestion des emplois du temps scolaires constitue une réponse concrète aux nombreuses contraintes organisationnelles rencontrées dans les établissements éducatifs. Le système mis en place permet une gestion centralisée, intuitive et structurée des classes, des matières, des enseignants ainsi que des plannings hebdomadaires.
+
+Au fil des différentes étapes du développement, plusieurs objectifs ont été atteints :
+\begin{itemize}
+ \item Une interface \textbf{administrateur} conviviale permettant l’enregistrement et la modification des données de base (classes, matières, utilisateurs, professeurs).
+ \item Un module d’enregistrement des emplois du temps par classe, avec une interface graphique simplifiée et fiable.
+ \item Une base de données SQLite performante pour la gestion persistante des données.
+ \item La génération automatique d’un fichier Excel et PDF exportable, facilitant l’impression et la distribution des emplois du temps.
+\end{itemize}
+
+Le système offre un bon équilibre entre \textbf{ergonomie, performance et sécurité}, tout en restant évolutif et maintenable à long terme.
+
+\section{RECOMMANDATIONS}
+Malgré la réussite du projet, certaines améliorations et perspectives d’évolution peuvent être envisagées pour enrichir davantage le système :
+\begin{itemize}
+	\item \textbf{Ajout d’un module de vérification des conflits :} Il serait pertinent d’implémenter un contrôle automatique de chevauchement des cours par professeur ou par salle.
+	\item \textbf{Gestion des salles :} Actuellement, la gestion des salles n'est pas prise en compte. L’ajout de cette fonctionnalité permettrait une meilleure allocation des ressources matérielles.
+	\item \textbf{Interface web ou mobile :} Pour une meilleure accessibilité, une version en ligne ou une application mobile pourrait être développée à l’avenir.
+\end{itemize}
+
+En somme, cette application représente une base solide pour une gestion numérique des plannings scolaires, et offre de multiples perspectives de perfectionnement. Sa mise en œuvre dans un établissement permettrait non seulement de gagner du temps, mais aussi de réduire les erreurs humaines, tout en facilitant la consultation des informations essentielles.
+
+
+
+%% FIN
 
 \end{document}

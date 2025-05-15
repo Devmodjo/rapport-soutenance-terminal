@@ -1,20 +1,24 @@
 \babel@toc {english}{}\relax 
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Diagramme de contexte}}{7}{figure.caption.15}%
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Cycle de modélisation de l’application.}}{8}{figure.caption.16}%
-\contentsline {figure}{\numberline {2.3}{\ignorespaces diagramme de cas d'utilisation}}{11}{figure.caption.17}%
-\contentsline {figure}{\numberline {2.4}{\ignorespaces diagramme de séquence (Authentification)}}{11}{figure.caption.18}%
-\contentsline {figure}{\numberline {2.5}{\ignorespaces diagramme de séquence (suppression utilisateur)}}{12}{figure.caption.19}%
-\contentsline {figure}{\numberline {2.6}{\ignorespaces diagramme de séquence (création emploie du temps)}}{12}{figure.caption.20}%
-\contentsline {figure}{\numberline {2.7}{\ignorespaces diagramme de séquence (consulter emploie de temps)}}{13}{figure.caption.21}%
-\contentsline {figure}{\numberline {2.8}{\ignorespaces diagramme d'activité (Authentification)}}{14}{figure.caption.22}%
-\contentsline {figure}{\numberline {2.9}{\ignorespaces diagramme d'activité (création emploie de temps)}}{15}{figure.caption.23}%
-\contentsline {figure}{\numberline {2.10}{\ignorespaces diagramme de classe}}{16}{figure.caption.24}%
+\contentsline {figure}{\numberline {2.1}{\ignorespaces présentation des différentes tâche de l'application}}{7}{figure.caption.15}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces diagramme de Gantt}}{7}{figure.caption.16}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces interface d'enregistrement des utilisateurs}}{19}{figure.caption.25}%
-\contentsline {figure}{\numberline {3.2}{\ignorespaces interface d'enregistrement des classes}}{19}{figure.caption.26}%
-\contentsline {figure}{\numberline {3.3}{\ignorespaces interface d'enregistrement des matières}}{20}{figure.caption.27}%
-\contentsline {figure}{\numberline {3.4}{\ignorespaces interface d'enregistrement des enseignants}}{20}{figure.caption.28}%
-\contentsline {figure}{\numberline {3.5}{\ignorespaces interface d'enregistrement des emplois de temps par classe}}{22}{figure.caption.29}%
-\contentsline {figure}{\numberline {3.6}{\ignorespaces interface de consultation}}{22}{figure.caption.30}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Diagramme de contexte}}{9}{figure.caption.17}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Cycle de modélisation de l’application.}}{10}{figure.caption.18}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces diagramme de cas d'utilisation}}{13}{figure.caption.19}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces diagramme de séquence (Authentification)}}{13}{figure.caption.20}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces diagramme de séquence (suppression utilisateur)}}{14}{figure.caption.21}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces diagramme de séquence (création emploie du temps)}}{14}{figure.caption.22}%
+\contentsline {figure}{\numberline {3.7}{\ignorespaces diagramme de séquence (consulter emploie de temps)}}{15}{figure.caption.23}%
+\contentsline {figure}{\numberline {3.8}{\ignorespaces diagramme d'activité (Authentification)}}{16}{figure.caption.24}%
+\contentsline {figure}{\numberline {3.9}{\ignorespaces diagramme d'activité (création emploie de temps)}}{17}{figure.caption.25}%
+\contentsline {figure}{\numberline {3.10}{\ignorespaces diagramme de classe}}{18}{figure.caption.26}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces interface d'enregistrement des utilisateurs}}{21}{figure.caption.27}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces interface d'enregistrement des classes}}{21}{figure.caption.28}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces interface d'enregistrement des matières}}{22}{figure.caption.29}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces interface d'enregistrement des enseignants}}{22}{figure.caption.30}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces interface d'enregistrement des emplois de temps par classe}}{24}{figure.caption.31}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces interface de consultation}}{24}{figure.caption.32}%
+\addvspace {10\p@ }
